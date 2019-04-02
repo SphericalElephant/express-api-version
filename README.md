@@ -1,4 +1,10 @@
 # express-api-version
+
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status](https://travis-ci.com/SphericalElephant/express-api-version.svg?branch=master)](https://travis-ci.com/SphericalElephant/express-api-version)
+[![Coverage Status](https://coveralls.io/repos/github/SphericalElephant/express-api-version/badge.svg?branch=master)](https://coveralls.io/github/SphericalElephant/express-api-version?branch=master)
+
 A simple API versioning middleware for express.
 
 ## Usage
@@ -26,3 +32,8 @@ app.get('/', (req, res, next) => {
   // do something with the version key here
 });
 ```
+
+[npm-image]: https://img.shields.io/npm/v/@sphericalelephant/express-api-version.svg
+[npm-url]: https://npmjs.org/package/@sphericalelephant/express-api-version
+[downloads-image]: https://img.shields.io/npm/dm/@sphericalelephant/express-api-version.svg
+[downloads-url]: https://npmjs.org/package/@sphericalelephant/express-api-version

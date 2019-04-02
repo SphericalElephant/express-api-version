@@ -13,8 +13,8 @@ class VersionManager {
    * @param {*} version the version the input version
    */
   getFittingVersion(version) {
-    const caretVersion = `^${version}`
-    return semver.maxSatisfying(this.supportedVersions, semver.validRange(caretVersion))
+    const caretVersion = `^${version}`;
+    return semver.maxSatisfying(this.supportedVersions, semver.validRange(caretVersion));
   }
 
   /**
